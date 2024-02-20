@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="todo-list">
+            <div class="heading">
+                <p class="title">notNotion</p>
+                <p class="sub-title"> Manage and search your Pending Tasks in Clicks</p>
+            </div>
+
+            <form class="search-section"> 
+                <input type="text" name="" id="task1" class="search-value" placeholder="search Task">
+                <i class=" reset bi bi-x-circle"></i>
+            </form>
+
+            <div class="list-section">
+                <ul class="show-tasks">
+                    <li class="show-task">Study <i class=" delete bi bi-trash"></i></li>
+                    <li class="show-task">Excersice <i class=" delete bi bi-trash"></i></li>
+                    <li class="show-task">Eat Out <i class=" delete bi bi-trash"></i></li>
+                    <li class="show-task">Metting Frined <i class=" delete bi bi-trash"></i></li>
+                </ul>
+
+                <form action="" class="add-task">
+                    <input type="text" name="" id="task" autocomplete="off" placeholder="Add Task">
+                    <input type="submit" name="" id="" value="Add">
+                </form>
+            </div>
+
+            <div class="pending-section">
+                <p class="pending-task"></p>
+                <button class="clear"> Clear All</button>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
